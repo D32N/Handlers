@@ -1,2 +1,2 @@
 # Handlers
-linked to who let da dogs out
+Bypass WFE to speed up development
