@@ -19,7 +19,7 @@ db = client[DB_NAME]
 ## Test Handlers status
 @app.route('/api/v1/handler/hstatus', methods=["GET"])
 def hstatus():
-    response = {'status': "Handlers API up and running"}
+    response = {'status': "Handlers API, I am up and running"}
     statuscode = 200
     return jsonify(response),statuscode
 
